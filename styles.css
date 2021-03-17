@@ -236,6 +236,187 @@ textarea {
 
 }
 
+footer {
+    margin-bottom: -45px;
+}
+
 footer > p {
     padding: 0.6rem;
+    text-align: center;
+}
+
+hr {
+    border-color: white;
+}
+
+/*large ipad screens*/
+
+@media (min-width: 768px) {
+    .logo {
+        margin: 0 auto;
+    }
+
+    nav > ul {
+        display: grid;
+        grid-template-columns: 245px 245px;
+        grid-gap: 1rem;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 3rem;
+    }
+
+    #drinks {
+        max-width: 650px;
+        margin: 0 auto;
+        max-height: 80px;
+        margin-bottom: 1.2rem;
+    }
+
+    .drink-menu > .drinks-list {
+        display: inline-block;
+        padding-right: 1.8rem;
+    }
+
+    .iced-drinks,
+    .hot-drinks,
+    .fruit-drinks {
+        display: grid;
+        grid-template-columns: 300px 300px;
+        margin-bottom: 1rem;
+        margin-top: 50px;
+    }
+
+    .grid-container {
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: 350px 350px;
+        grid-gap: 2rem;
+    }
+
+    #about-section {
+        height: 350px;
+    }
+
+    #beginning-section {
+        height: 430px;
+    }
+
+    .section-heading {
+        text-align: center;
+        font-size: 1.9rem;
+    }
+
+    .about-container > img,
+    .beginning-container > img {
+        float: left;
+        width: 225px;
+        margin-right: 20px;
+    }
+
+    .about-container > p,
+    .beginning-container > p {
+        padding-left: 1rem;
+        font-size: 1.15rem;
+        line-height: 1.8;
+        font-weight: 100;
+    }
+
+    #contact-section {
+        font-size: 1.3rem;
+        line-height: 1.6;
+        padding: 2rem;
+    }
+
+    .form-container {
+        width: 60%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+}
+
+/* larger tablets */
+@media (min-width: 1024px) {
+
+    .iced-drinks,
+    .hot-drinks,
+    .fruit-drinks {
+        margin-top: 60px;
+        display: grid;
+        grid-template-columns: 450px 400px;
+    }
+
+    .about-container > p,
+    .beginning-container > p {
+        font-size: 1.3rem;
+        line-height: 1.9;
+        font-weight: 100;
+    }
+
+    .grid-container {
+        margin-top: 40px;
+        margin-right: 10px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+        grid-gap: 1rem;
+    }
+}
+
+/* laptops */
+@media (min-width: 1281px) {
+    .menu-list > a {
+        font-size: 1.58rem;
+        width: 250px;
+    }
+
+    #drinks {
+        max-width: 800px;
+    }
+
+    .drink-menu > .drinks-list > a {
+        font-size: 1.49rem;
+    }
+
+    .iced-drinks,
+    .hot-drinks,
+    .fruit-drinks {
+        margin-top: 60px;
+        display: grid;
+        grid-template-columns: 585px 550px;
+    }
+
+    .drink-container > img {
+        max-width: 230px;
+        height: auto;
+    }
+
+    .drink-description,
+    .drink-name,
+    .drink-price {
+        font-size: 1.4rem;
+        font-weight: 100;
+        line-height: 1.7;
+    }
+
+    #about-section {
+        max-width: 780px;
+        height: 400px;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+
+    #beginning-section {
+        max-width: 780px;
+        margin: auto;
+        height: 480px;
+    }
+
+    #contact-section {
+        width: 700px;
+        margin: auto;
+    }
+
+    .form-container {
+        width: 500px;
+        margin-top: 3rem;
+    }
 }
