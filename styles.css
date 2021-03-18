@@ -143,6 +143,10 @@ nav > ul {
     padding-bottom: 20px;
 }
 
+.fruit-drinks {
+    margin-bottom: 2rem;
+}
+
 #about-section,
 #contact-section,
 #beginning-section {
@@ -160,6 +164,10 @@ nav > ul {
 .special-heading {
     color: #96FEFF;
     font-weight: 100;
+}
+
+#special-items {
+    margin-top: 4rem;
 }
 
 .special-heading {
@@ -194,6 +202,7 @@ footer,
     width: 100%;
     height: 390px;
     background-color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 2rem;
 }
 
 input,
@@ -286,6 +295,10 @@ hr {
         margin-top: 50px;
     }
 
+    .fruit-drinks {
+        margin-bottom: 3rem;
+    }
+
     .grid-container {
         margin-top: 40px;
         display: grid;
@@ -345,6 +358,12 @@ hr {
         grid-template-columns: 450px 400px;
     }
 
+    #contact-section {
+        width: 750px;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+
     .about-container > p,
     .beginning-container > p {
         font-size: 1.3rem;
@@ -359,6 +378,7 @@ hr {
         grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
         grid-gap: 1rem;
     }
+
 }
 
 /* laptops */
@@ -408,6 +428,7 @@ hr {
         max-width: 780px;
         margin: auto;
         height: 480px;
+        margin-bottom: 3rem;
     }
 
     #contact-section {
@@ -418,5 +439,22 @@ hr {
     .form-container {
         width: 500px;
         margin-top: 3rem;
+    }
+}
+
+/* large monitors */
+@media (min-width: 1800px) {
+
+    .iced-drinks,
+    .hot-drinks,
+    .fruit-drinks {
+        margin-left: 200px;
+        margin-top: 60px;
+        display: grid;
+        grid-template-columns: 600px 600px;
+    }
+
+    #special-items {
+        margin-bottom: 5rem;
     }
 }
