@@ -274,6 +274,10 @@ hr {
         margin-bottom: 3rem;
     }
 
+    .drink-section-container {
+        margin-bottom: 4rem;
+    }
+
     #drinks {
         max-width: 650px;
         margin: 0 auto;
@@ -293,10 +297,6 @@ hr {
         grid-template-columns: 300px 300px;
         margin-bottom: 1rem;
         margin-top: 50px;
-    }
-
-    .fruit-drinks {
-        margin-bottom: 3rem;
     }
 
     .grid-container {
